@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *sharePressed;
+- (IBAction)shareBtnPressed:(id)sender;
 
 @end
 

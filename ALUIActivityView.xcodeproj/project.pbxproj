@@ -14,6 +14,12 @@
 		C8C8494C1AF486A0000FA48C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C8494B1AF486A0000FA48C /* Images.xcassets */; };
 		C8C8494F1AF486A0000FA48C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8C8494D1AF486A0000FA48C /* LaunchScreen.xib */; };
 		C8C8495B1AF486A0000FA48C /* ALUIActivityViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C8495A1AF486A0000FA48C /* ALUIActivityViewTests.m */; };
+		C8C849681AF489B1000FA48C /* FacebookShare.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C849651AF489B1000FA48C /* FacebookShare.m */; };
+		C8C849691AF489B1000FA48C /* GooglePlus.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C849671AF489B1000FA48C /* GooglePlus.m */; };
+		C8C8496C1AF48A08000FA48C /* GoogleOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C8496A1AF48A08000FA48C /* GoogleOpenSource.framework */; };
+		C8C8496D1AF48A08000FA48C /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C8496B1AF48A08000FA48C /* GooglePlus.framework */; };
+		C8C8496F1AF48A1C000FA48C /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C8496E1AF48A1C000FA48C /* FacebookSDK.framework */; };
+		C8C849711AF48A7A000FA48C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C849701AF48A7A000FA48C /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,14 @@
 		C8C849541AF486A0000FA48C /* ALUIActivityViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALUIActivityViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C849591AF486A0000FA48C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8C8495A1AF486A0000FA48C /* ALUIActivityViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALUIActivityViewTests.m; sourceTree = "<group>"; };
+		C8C849641AF489B1000FA48C /* FacebookShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookShare.h; sourceTree = "<group>"; };
+		C8C849651AF489B1000FA48C /* FacebookShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookShare.m; sourceTree = "<group>"; };
+		C8C849661AF489B1000FA48C /* GooglePlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooglePlus.h; sourceTree = "<group>"; };
+		C8C849671AF489B1000FA48C /* GooglePlus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooglePlus.m; sourceTree = "<group>"; };
+		C8C8496A1AF48A08000FA48C /* GoogleOpenSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleOpenSource.framework; sourceTree = "<group>"; };
+		C8C8496B1AF48A08000FA48C /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlus.framework; sourceTree = "<group>"; };
+		C8C8496E1AF48A1C000FA48C /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		C8C849701AF48A7A000FA48C /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8C849711AF48A7A000FA48C /* CoreMotion.framework in Frameworks */,
+				C8C8496C1AF48A08000FA48C /* GoogleOpenSource.framework in Frameworks */,
+				C8C8496D1AF48A08000FA48C /* GooglePlus.framework in Frameworks */,
+				C8C8496F1AF48A1C000FA48C /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +81,7 @@
 		C8C849321AF4869F000FA48C = {
 			isa = PBXGroup;
 			children = (
+				C8C849701AF48A7A000FA48C /* CoreMotion.framework */,
 				C8C8493D1AF4869F000FA48C /* ALUIActivityView */,
 				C8C849571AF486A0000FA48C /* ALUIActivityViewTests */,
 				C8C8493C1AF4869F000FA48C /* Products */,
@@ -81,8 +100,15 @@
 		C8C8493D1AF4869F000FA48C /* ALUIActivityView */ = {
 			isa = PBXGroup;
 			children = (
+				C8C8496E1AF48A1C000FA48C /* FacebookSDK.framework */,
+				C8C8496A1AF48A08000FA48C /* GoogleOpenSource.framework */,
+				C8C8496B1AF48A08000FA48C /* GooglePlus.framework */,
 				C8C849421AF4869F000FA48C /* AppDelegate.h */,
 				C8C849431AF4869F000FA48C /* AppDelegate.m */,
+				C8C849641AF489B1000FA48C /* FacebookShare.h */,
+				C8C849651AF489B1000FA48C /* FacebookShare.m */,
+				C8C849661AF489B1000FA48C /* GooglePlus.h */,
+				C8C849671AF489B1000FA48C /* GooglePlus.m */,
 				C8C849451AF4869F000FA48C /* ViewController.h */,
 				C8C849461AF4869F000FA48C /* ViewController.m */,
 				C8C849481AF486A0000FA48C /* Main.storyboard */,
@@ -222,6 +248,8 @@
 				C8C849471AF4869F000FA48C /* ViewController.m in Sources */,
 				C8C849441AF4869F000FA48C /* AppDelegate.m in Sources */,
 				C8C849411AF4869F000FA48C /* main.m in Sources */,
+				C8C849681AF489B1000FA48C /* FacebookShare.m in Sources */,
+				C8C849691AF489B1000FA48C /* GooglePlus.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +371,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Arpit Lokwani (4W2E9ZUE42)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ALUIActivityView",
+				);
 				INFOPLIST_FILE = ALUIActivityView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,7 +387,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Arpit Lokwani (4W2E9ZUE42)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ALUIActivityView",
+				);
 				INFOPLIST_FILE = ALUIActivityView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
