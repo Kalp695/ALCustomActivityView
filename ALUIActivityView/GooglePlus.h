@@ -1,11 +1,10 @@
-//
-//  GooglePlus.h
-//  Reliance
-//
-//  Created by emb-arpilok on 14/01/15.
-//  Copyright (c) 2015 Embitel. All rights reserved.
-//
 
+
+//  ALUIActivityView
+//
+//  Created by Arpit Lokwani on 5/2/15.
+//  Copyright (c) 2015 Arpit Lokwani. All rights reserved.
+//
 #import <UIKit/UIKit.h>
 #import <GooglePlus/GooglePlus.h>
 
